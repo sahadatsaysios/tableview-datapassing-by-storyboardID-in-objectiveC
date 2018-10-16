@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property NSMutableArray *playerNameList;
+@property NSMutableArray *countryList;
+@property NSMutableArray *imgs;
 
 @end
 

@@ -13,6 +13,8 @@
 		5C6840DB2175C3B3001CC547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6840DA2175C3B3001CC547 /* Assets.xcassets */; };
 		5C6840DE2175C3B3001CC547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6840DC2175C3B3001CC547 /* LaunchScreen.storyboard */; };
 		5C6840E12175C3B3001CC547 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6840E02175C3B3001CC547 /* main.m */; };
+		5C6840E92175CCE0001CC547 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6840E82175CCE0001CC547 /* CustomCell.m */; };
+		5C6840EC2175CFFC001CC547 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6840EB2175CFFC001CC547 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		5C6840DD2175C3B3001CC547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C6840DF2175C3B3001CC547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6840E02175C3B3001CC547 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C6840E72175CCE0001CC547 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		5C6840E82175CCE0001CC547 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		5C6840EA2175CFFC001CC547 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		5C6840EB2175CFFC001CC547 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				5C6840D12175C3AA001CC547 /* AppDelegate.h */,
+				5C6840EA2175CFFC001CC547 /* DetailsViewController.h */,
+				5C6840EB2175CFFC001CC547 /* DetailsViewController.m */,
+				5C6840E72175CCE0001CC547 /* CustomCell.h */,
+				5C6840E82175CCE0001CC547 /* CustomCell.m */,
 				5C6840D22175C3AA001CC547 /* AppDelegate.m */,
 				5C6840D42175C3AA001CC547 /* ViewController.h */,
 				5C6840D52175C3AA001CC547 /* ViewController.m */,
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6840D62175C3AA001CC547 /* ViewController.m in Sources */,
+				5C6840EC2175CFFC001CC547 /* DetailsViewController.m in Sources */,
 				5C6840E12175C3B3001CC547 /* main.m in Sources */,
+				5C6840E92175CCE0001CC547 /* CustomCell.m in Sources */,
 				5C6840D32175C3AA001CC547 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
